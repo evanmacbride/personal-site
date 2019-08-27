@@ -14,6 +14,9 @@ class Contact extends Component {
     return (
       <section>
         <h2>Contact</h2>
+        <article>
+          Quisque consectetur consequat quam, non molestie libero aliquet vel. Etiam interdum aliquam lectus, sit amet blandit ante auctor quis. In sed pretium dolor. Nam nulla elit, lobortis id consectetur id, maximus quis ex. In hendrerit ut ex at bibendum. Sed tempor est quam, vel pulvinar ex semper a. Cras consectetur magna sed erat laoreet, nec tincidunt ex porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+        </article>
       </section>
     );
   }

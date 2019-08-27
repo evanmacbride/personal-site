@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
 
 const Mode = {
   HOME: 0,
@@ -29,6 +30,7 @@ class App extends Component {
       <div>
         <Header appMode={this.state.appMode}/>
         <Main onComponentMount={this.handleComponentMount}/>
+        <Footer />
       </div>
     );
   }

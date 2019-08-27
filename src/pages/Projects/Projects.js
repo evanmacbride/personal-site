@@ -16,6 +16,9 @@ class Projects extends Component {
     return (
       <section>
         <h2>Projects</h2>
+        <article>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus interdum tincidunt. Vivamus hendrerit nibh a erat tempus, eget facilisis est imperdiet. Praesent mattis accumsan ipsum sed auctor. Suspendisse potenti. Nam aliquet, ante ut molestie venenatis, justo ante consectetur urna, eget pretium odio nisl ac eros. Quisque pulvinar aliquet lectus eget mattis. Aliquam ac quam ullamcorper, malesuada sapien sit amet, pellentesque lacus.
+        </article>
       </section>
     );
   }
