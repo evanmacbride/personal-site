@@ -1,0 +1,12 @@
+.appTitle {
+  margin-bottom: 1rem;
+}
+
+.headerNavList {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.headerNavList li:not(:last-child) {
+  padding-right: 0.625rem;
+}

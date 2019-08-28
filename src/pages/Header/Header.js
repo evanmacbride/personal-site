@@ -1,14 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mode } from '../App/App';
+import './Header.css';
 
 const Header = (props) => (
   <header>
-    <h1>Evan MacBride</h1>
-    <h3>Front End Web Developer</h3>
+    <div className="appTitle">
+      <h1>Evan MacBride</h1>
+      <h3>Front End Web Developer</h3>
+    </div>
     <nav>
       {props.appMode !== Mode.HOME && (
-        <ul>
+        <ul className="headerNavList">
           <li>
             <Link to='/'>Home</Link>
           </li>
