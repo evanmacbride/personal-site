@@ -6,15 +6,12 @@ import './Header.css';
 const Header = (props) => (
   <header>
     <div className="appTitle">
-      <h1>Evan MacBride</h1>
+      <h1><Link to='/'>Evan MacBride</Link></h1>
       <h3>Front End Web Developer</h3>
     </div>
     <nav>
       {props.appMode !== Mode.HOME && (
         <ul className="headerNavList">
-          <li>
-            <Link to='/'>Home</Link>
-          </li>
           <li>
             {props.appMode === Mode.PROJECTS ? <span className="activePage">Projects</span> :
             <Link to='/projects'>Projects</Link>}

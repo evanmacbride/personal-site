@@ -12,7 +12,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <section>
+      <section className="outerSection contactSection">
         <h2 className="sectionTitle">Contact</h2>
         <article>
           <p>

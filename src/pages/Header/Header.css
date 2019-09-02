@@ -1,10 +1,15 @@
 .appTitle {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8112rem;
+}
+
+.appTitle a {
+  color: inherit;
 }
 
 .headerNavList {
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 0.5013rem
 }
 
 .headerNavList li:not(:last-child) {

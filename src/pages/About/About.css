@@ -1,0 +1,17 @@
+p {
+  margin-top: 0.8112rem;
+  margin-bottom: 0;
+}
+
+.articleSubsection {
+  margin-bottom: 1.375rem;
+}
+
+.articleSubsection p:first-of-type {
+  margin-top: 0;
+}
+
+.subsectionTitle {
+  margin-bottom: 0.5013rem;
+  margin-top: 0;
+}

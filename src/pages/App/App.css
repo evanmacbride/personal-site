@@ -1,5 +1,26 @@
 @font-face {
   font-family: 'Space Grotesk';
+  src: url('../../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+       url('../../fonts/SpaceGrotesk-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+       url('../../fonts/SpaceGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../../fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+       url('../../fonts/SpaceGrotesk-SemiBold.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
   src: url('../../fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
        url('../../fonts/SpaceGrotesk-Bold.woff') format('woff');
   font-weight: 700;
@@ -9,13 +30,23 @@
   font-family: 'Vremena Grotesk';
   src: url('../../fonts/vremenagroteskbook-webfont.woff2') format('woff2'),
        url('../../fonts/vremenagroteskbook-webfont.woff') format('woff');
+  font-weight: 300;
 }
 
 @font-face {
   font-family: 'Vremena Grotesk';
   src: url('../../fonts/vremenagroteskmedium-webfont.woff2') format('woff2'),
        url('../../fonts/vremenagroteskmedium-webfont.woff') format('woff');
-  font-weight: 600;
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Space Grotesk';
+  font-feature-settings: 'zero';
+  font-weight: 500;
+  line-height: 1.3125; /* 21px line-height for 16px font-size */
+  padding: 0 8px;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -27,32 +58,38 @@ a, a:visited {
 }
 
 nav ul {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.3125rem 0;
   padding-left: 0;
 }
 
 h1, h2, h3, h4 {
+	font-feature-settings: 'ss02','ss03';
   margin: 0;
 }
 
-body {
-  font-family: 'Vremena Grotesk';
-  line-height: 1.3125; /* 21px line-height for 16px font-size */
-  padding: 0 8px;
-}
-
 h1, h2 {
-	font-family: 'Space Grotesk';
-	font-feature-settings: 'ss02','ss03','zero';
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3, h4 {
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: inherit;
+}
+
+p {
+  font-family: 'Vremena Grotesk';
+  font-weight: 300;
+}
+
+section {
+  max-width: 460px;
 }
 
 .sectionTitle {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8112rem;
+}
+
+.outerSection {
+  margin-bottom: 1.3125rem;
 }
