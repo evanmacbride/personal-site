@@ -33,6 +33,7 @@ class Main extends Component {
             render={(props) => <Projects
               {...props}
               onComponentMount={this.props.onComponentMount}
+              projectCards={this.props.projectCards}
               />}
           />
           <Route

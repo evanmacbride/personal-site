@@ -16,7 +16,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      appMode: Mode.HOME
+      appMode: Mode.HOME,
+      projectCards: null
     };
     this.handleComponentMount = this.handleComponentMount.bind(this);
   }
@@ -26,11 +27,38 @@ class App extends Component {
     this.setState({ appMode: mode });
   }
 
+  componentDidMount() {
+    fetch("https://api.github.com/users/evanmacbride/repos?sort=updated")
+      .then(response => response.json())
+      .catch(err => {
+        console.log(err);
+        return Promise.reject(err);
+      })
+      .then(response => {
+        let projectsArray = response.map((data, index) => {
+          return (
+            <div key={index}>
+              <h2>{data.name}</h2>
+              <h3>{data.description}</h3>
+              <ul className="projectLinks">
+                <li><a href={data.html_url}>GitHub</a></li>
+                {data.homepage && <li><a href={data.homepage}>Live Version</a></li>}
+              </ul>
+            </div>
+          );
+        })
+        this.setState({ projectCards: projectsArray });
+      });
+  }
+
   render() {
     return (
       <div>
         <Header appMode={this.state.appMode}/>
-        <Main onComponentMount={this.handleComponentMount}/>
+        <Main
+          onComponentMount={this.handleComponentMount}
+          projectCards={this.state.projectCards}
+        />
         <Footer />
       </div>
     );
