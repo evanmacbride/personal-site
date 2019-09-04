@@ -7,7 +7,7 @@
   "dependencies": {
     "netlify": "^2.4.8",
     "netlify-cli": "^2.12.0",
-    "react": "^15.5.3",
+    "react": "^15.6.2",
     "react-dom": "^15.5.3",
     "react-router-dom": "4.1.1",
     "react-scripts": "^3.1.1"
