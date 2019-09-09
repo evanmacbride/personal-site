@@ -36,16 +36,20 @@ class App extends Component {
       })
       .then(response => {
         let projectsArray = response.map((data, index) => {
-          return (
-            <div key={index}>
-              <h2>{data.name}</h2>
-              <h3>{data.description}</h3>
-              <ul className="projectLinks">
-                <li><a href={data.html_url}>GitHub</a></li>
-                {data.homepage && <li><a href={data.homepage}>Live Version</a></li>}
-              </ul>
-            </div>
-          );
+          if (data.description) {
+            return (
+              <div key={index}>
+                <h2>{data.name}</h2>
+                <h3>{data.description}</h3>
+                <ul className="projectLinks">
+                  <li><a href={data.html_url}>GitHub</a></li>
+                  {data.homepage && <li><a href={data.homepage}>Live Version</a></li>}
+                </ul>
+              </div>
+            );
+          } else {
+            return null;
+          }
         })
         this.setState({ projectCards: projectsArray });
       });
@@ -53,7 +57,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="projectCard">
         <Header appMode={this.state.appMode}/>
         <Main
           onComponentMount={this.handleComponentMount}
