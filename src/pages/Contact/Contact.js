@@ -13,11 +13,22 @@ class Contact extends Component {
   render() {
     return (
       <section className="outerSection contactSection">
-        <h2 className="sectionTitle">Contact</h2>
+        <h2 className="sectionTitle">Send me a message</h2>
         <article>
-          <p>
-            Quisque consectetur consequat quam, non molestie libero aliquet vel. Etiam interdum aliquam lectus, sit amet blandit ante auctor quis. In sed pretium dolor. Nam nulla elit, lobortis id consectetur id, maximus quis ex. In hendrerit ut ex at bibendum. Sed tempor est quam, vel pulvinar ex semper a. Cras consectetur magna sed erat laoreet, nec tincidunt ex porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-          </p>
+          <form name="send-message" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
         </article>
       </section>
     );
