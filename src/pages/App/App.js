@@ -56,6 +56,10 @@ class App extends Component {
   }
 
   render() {
+    (this.state.appMode === Mode.HOME) && document.body.classList.toggle("greenBG");
+    (this.state.appMode === Mode.PROJECTS) && document.body.classList.toggle("pinkBG");
+    (this.state.appMode === Mode.ABOUT) && document.body.classList.toggle("blueBG");
+    (this.state.appMode === Mode.CONTACT) && document.body.classList.toggle("goldBG");
     return (
       <div>
         <Header appMode={this.state.appMode}/>

@@ -57,6 +57,26 @@ a, a:visited {
   color: blue; /* Placeholder until color palette is set */
 }
 
+.greenBG {
+  background-color: mediumspringgreen;
+  transition: 0.9s;
+}
+
+.pinkBG {
+  background-color: pink;
+  transition: 0.9s;
+}
+
+.blueBG {
+  background-color: powderblue;
+  transition: 0.9s;
+}
+
+.goldBG {
+  background-color: gold;
+  transition: 0.9s;
+}
+
 .navList {
   display: flex;
   flex-flow: row wrap;

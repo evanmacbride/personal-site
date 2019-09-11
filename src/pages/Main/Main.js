@@ -4,6 +4,7 @@ import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import { Mode } from '../App/App'
 
 class Main extends Component {
   constructor(props) {
