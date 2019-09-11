@@ -1,3 +1,5 @@
+/* Remove font-face rules AND FONTS when final font suite is determined */
+
 @font-face {
   font-family: 'Space Grotesk';
   src: url('../../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
@@ -62,19 +64,19 @@ body {
 }
 
 .homeBG {
-  background-color: mediumspringgreen;
+  background-color: mediumspringgreen; /* Placeholder until color palette is set */
 }
 
 .projectsBG {
-  background-color: pink;
+  background-color: pink; /* Placeholder until color palette is set */
 }
 
 .aboutBG {
-  background-color: powderblue;
+  background-color: powderblue; /* Placeholder until color palette is set */
 }
 
 .contactBG {
-  background-color: gold;
+  background-color: gold; /* Placeholder until color palette is set */
 }
 
 .navList {

@@ -4,19 +4,11 @@ import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import { Mode } from '../App/App'
 
 class Main extends Component {
   constructor(props) {
     super(props);
-    //this.handleComponentMount = this.handleComponentMount.bind(this);
   }
-
-  /*handleComponentMount() {
-    //console.log("Hello from main!");
-    console.log("Main", this.props.onComponentMount);
-    this.props.onComponentMount;
-  }*/
 
   render() {
     return (

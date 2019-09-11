@@ -23,7 +23,6 @@ class App extends Component {
   }
 
   handleComponentMount(mode) {
-    //console.log("Hello from App!");
     this.setState({ appMode: mode });
   }
 
@@ -56,12 +55,6 @@ class App extends Component {
   }
 
   render() {
-    /*
-    (this.state.appMode === Mode.HOME) && document.body.classList.toggle("homeBG");
-    (this.state.appMode === Mode.PROJECTS) && document.body.classList.toggle("projectsBG");
-    (this.state.appMode === Mode.ABOUT) && document.body.classList.toggle("aboutBG");
-    (this.state.appMode === Mode.CONTACT) && document.body.classList.toggle("contactBG");
-    */
     return (
       <div>
         <Header appMode={this.state.appMode}/>
