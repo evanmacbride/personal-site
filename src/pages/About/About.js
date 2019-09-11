@@ -9,6 +9,7 @@ class About extends Component {
 
   componentDidMount() {
     this.props.onComponentMount(Mode.ABOUT);
+    document.body.className = "aboutBG";
   }
 
   render() {

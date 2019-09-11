@@ -10,6 +10,7 @@ class Home extends Component {
 
   componentDidMount() {
     this.props.onComponentMount(Mode.HOME);
+    document.body.className = "homeBG";
   }
 
   render() {

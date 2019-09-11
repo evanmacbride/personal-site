@@ -57,24 +57,24 @@ a, a:visited {
   color: blue; /* Placeholder until color palette is set */
 }
 
-.greenBG {
+body {
+  transition: 1.2s;
+}
+
+.homeBG {
   background-color: mediumspringgreen;
-  transition: 0.9s;
 }
 
-.pinkBG {
+.projectsBG {
   background-color: pink;
-  transition: 0.9s;
 }
 
-.blueBG {
+.aboutBG {
   background-color: powderblue;
-  transition: 0.9s;
 }
 
-.goldBG {
+.contactBG {
   background-color: gold;
-  transition: 0.9s;
 }
 
 .navList {

@@ -10,6 +10,7 @@ class Projects extends Component {
     //console.log("Hello from Projects!");
     //console.log("Projects", this.props.onComponentMount);
     this.props.onComponentMount(Mode.PROJECTS);
+    document.body.className = "projectsBG";
   }
 
   render() {

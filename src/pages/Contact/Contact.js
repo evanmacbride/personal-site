@@ -8,6 +8,7 @@ class Contact extends Component {
 
   componentDidMount() {
     this.props.onComponentMount(Mode.CONTACT);
+    document.body.className = "contactBG";
   }
 
   render() {
