@@ -43,7 +43,7 @@ class App extends Component {
                 <h3>{data.description}</h3>
                 <ul className="projectLinks">
                   <li><a href={data.html_url}>GitHub</a></li>
-                  {data.homepage && <li><a href={data.homepage}>Live Version</a></li>}
+                  {data.homepage && <li><a href={data.homepage}>Project Website</a></li>}
                 </ul>
               </div>
             );
