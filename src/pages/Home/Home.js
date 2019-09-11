@@ -15,8 +15,8 @@ class Home extends Component {
   render() {
     return (
       <section>
-        <nav className="homeNavList">
-          <ul>
+        <nav>
+          <ul className="navList homeNavList">
             <li><Link to='/projects'>Projects</Link></li>
             <li><Link to='/about'>About</Link></li>
             <li><Link to='/contact'>Contact</Link></li>

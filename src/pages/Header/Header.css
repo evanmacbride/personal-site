@@ -5,13 +5,3 @@
 .appTitle a {
   color: inherit;
 }
-
-.headerNavList {
-  display: flex;
-  flex-flow: row wrap;
-  margin-bottom: 0.5013rem
-}
-
-.headerNavList li:not(:last-child) {
-  padding-right: 0.625rem;
-}

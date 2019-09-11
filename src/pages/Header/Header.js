@@ -11,7 +11,7 @@ const Header = (props) => (
     </div>
     <nav>
       {props.appMode !== Mode.HOME && (
-        <ul className="headerNavList">
+        <ul className="navList headerNavList">
           <li>
             {props.appMode === Mode.PROJECTS ? <span className="activePage">Projects</span> :
             <Link to='/projects'>Projects</Link>}

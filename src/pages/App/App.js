@@ -38,7 +38,7 @@ class App extends Component {
         let projectsArray = response.map((data, index) => {
           if (data.description) {
             return (
-              <div key={index}>
+              <div className="projectCard" key={index}>
                 <h2>{data.name}</h2>
                 <h3>{data.description}</h3>
                 <ul className="projectLinks">
@@ -57,7 +57,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="projectCard">
+      <div>
         <Header appMode={this.state.appMode}/>
         <Main
           onComponentMount={this.handleComponentMount}

@@ -57,9 +57,15 @@ a, a:visited {
   color: blue; /* Placeholder until color palette is set */
 }
 
-nav ul {
-  margin: 0 0 1.3125rem 0;
+.navList {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 0 0.5013rem 0;
   padding-left: 0;
+}
+
+.navList li:not(:last-child) {
+  padding-right: 0.625rem;
 }
 
 h1, h2, h3, h4 {
