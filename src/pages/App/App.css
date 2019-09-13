@@ -56,27 +56,36 @@ a {
 }
 
 a, a:visited {
-  color: blue; /* Placeholder until color palette is set */
+  color: black; /* Placeholder until color palette is set */
+  opacity: 0.75;
 }
 
 body {
-  transition: 1.2s;
+  transition: 0.5s;
 }
 
 .homeBG {
-  background-color: mediumspringgreen; /* Placeholder until color palette is set */
+  /*background-color: #ffad05; /* Gold */
+  background-color: #ffb41b; /* Bright Yellow */
+  /*background-color: #ffc144; /* Pastel Orange */
 }
 
 .projectsBG {
-  background-color: pink; /* Placeholder until color palette is set */
+  background-color: #50ffb1; /* Mint */
+  /*background-color: #5fffb8; /* Medium Aquamarine */
+  /*background-color: #7cffc4; /* Aquamarine */
 }
 
 .aboutBG {
-  background-color: powderblue; /* Placeholder until color palette is set */
+  background-color: #7494ea; /* Sky */
+  /*background-color: #809deb; /* Vista Blue */
+  /*background-color: #97aeee; /* Jordy Blue */
 }
 
 .contactBG {
-  background-color: gold; /* Placeholder until color palette is set */
+  /*background-color: #d741a7; /* Fuschia */
+  background-color: #de63b7; /* Thulian Pink */
+  /*background-color: #e174bf; /* Middle Purple */
 }
 
 .navList {
