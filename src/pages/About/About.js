@@ -43,12 +43,6 @@ class About extends Component {
               Specialty Grocery Buyer. Harvest Market, 2014 - 2017.
             </p>
             <p>
-              Instructor. Community Music School, University of Delaware, 2006 - 2007.
-            </p>
-            <p>
-              Attendant. Music Resource Center, University of Delaware, 2001 - 2008.
-            </p>
-            <p>
               Producer & On-Air Host. 91.3FM WVUD, 2001 - 2016.
             </p>
           </section>
