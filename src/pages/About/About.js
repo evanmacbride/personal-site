@@ -31,7 +31,7 @@ class About extends Component {
               Visiting Student, Computer Science and Mathematics. Delaware Technical Community College, 2016 - 2019.
             </p>
             <p>
-              Bachelor of Music, Composition. University of Delaware, 2005.
+              Bachelor of Music, Composition. University of Delaware, 2000 - 2005.
             </p>
           </section>
           <section className="articleSubsection">
