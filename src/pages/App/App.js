@@ -36,10 +36,12 @@ class App extends Component {
       .then(response => {
         let projectsArray = response.map((data, index) => {
           if (data.description) {
+            //console.log(data);
+            const d = new Date(data.pushed_at)
             return (
               <div className="projectCard" key={index}>
                 <h2>{data.name}</h2>
-                <h3>{data.description}</h3>
+                <h3>{data.description} (Last commit {d.toLocaleString()})</h3>
                 <ul className="projectLinks">
                   <li><a href={data.html_url}>GitHub</a></li>
                   {data.homepage && <li><a href={data.homepage}>Project Website</a></li>}
