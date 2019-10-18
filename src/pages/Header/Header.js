@@ -7,7 +7,7 @@ const Header = (props) => (
   <header>
     <div className="appTitle">
       <h1><Link to='/'>Evan MacBride</Link></h1>
-      <h3>Front End Web Developer</h3>
+      {/*<h3>Front End Web Developer</h3>*/}
     </div>
     <nav>
       {props.appMode !== Mode.HOME && (

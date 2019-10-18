@@ -23,6 +23,11 @@ class Home extends Component {
             <li><Link to='/contact'>Contact</Link></li>
           </ul>
         </nav>
+        <article>
+          <p className="homeBlurb">
+            Hi, I'm Evan. I'm a front end web developer from Wilmington, Delaware.
+          </p>
+        </article>
       </section>
     );
   }
