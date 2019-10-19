@@ -17,13 +17,23 @@
 body {
   color: #3d3d3d; /* Black Olive */
   font-family: 'Cooper Hewitt';
-  /*font-feature-settings: 'zero';*/
+  height: calc(100vh - 4px);
   line-height: 1.25;
   font-size: 1.125rem;
   font-weight: 400;
-
-  padding: 0 8px;
+  padding: 2px 8px;
   text-rendering: optimizeLegibility;
+  transition: 0.5s;
+}
+
+#root, .wrapAll {
+  height: 100%;
+}
+
+.wrapAll {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 a {
@@ -33,10 +43,6 @@ a {
 a, a:visited {
   color: inherit; /* Placeholder until color palette is set */
   /*opacity: 0.75;*/
-}
-
-body {
-  transition: 0.5s;
 }
 
 .homeBG {
@@ -96,4 +102,8 @@ section {
 
 .outerSection {
   margin-bottom: 1.3125rem;
+}
+
+footer {
+  padding-bottom: 2px;
 }

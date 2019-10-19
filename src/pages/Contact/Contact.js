@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Mode } from '../App/App';
+import './Contact.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class Contact extends Component {
           <p>
             <label>Message: <textarea name="message"></textarea></label>
           </p>
-          <p>
+          <p className="submitP">
             <button type="submit">Send</button>
           </p>
         </form>

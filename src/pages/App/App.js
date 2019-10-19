@@ -58,12 +58,14 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header appMode={this.state.appMode}/>
-        <Main
-          onComponentMount={this.handleComponentMount}
-          projectCards={this.state.projectCards}
-        />
+      <div className="wrapAll">
+        <div className="wrapAboveFooter">
+          <Header appMode={this.state.appMode}/>
+          <Main
+            onComponentMount={this.handleComponentMount}
+            projectCards={this.state.projectCards}
+          />
+        </div>
         <Footer />
       </div>
     );
