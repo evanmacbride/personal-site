@@ -23,7 +23,7 @@ body {
   font-weight: 400;
   padding: 2px 8px;
   text-rendering: optimizeLegibility;
-  transition: 0.5s;
+  transition: background-color 0.5s;
 }
 
 #root, .wrapAll {

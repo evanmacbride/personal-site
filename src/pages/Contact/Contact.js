@@ -20,13 +20,13 @@ class Contact extends Component {
         <form name="send-message" method="post">
           <input type="hidden" name="form-name" value="send-message" />
           <p>
-            <label>Your Name: <input type="text" name="name"/></label>
+            <label><span className="labelText">Your Name: </span><input type="text" name="name"/></label>
           </p>
           <p>
-            <label>Your Email: <input type="email" name="email"/></label>
+            <label><span className="labelText">Your Email: </span><input type="email" name="email"/></label>
           </p>
           <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label className="messageLabel"><span className="labelText">Message: </span><textarea name="message"></textarea></label>
           </p>
           <p className="submitP">
             <button type="submit">Send</button>
