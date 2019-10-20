@@ -37,10 +37,14 @@ body {
 }
 
 a {
+  background-color: #3d3d3d; /* Black Olive */
+  font-weight: 600;
+  padding: 0 1px;
   text-decoration: none;
+  transition: color 0.5s;
 }
 
-a, a:visited {
+a:visited {
   color: inherit; /* Placeholder until color palette is set */
   /*opacity: 0.75;*/
 }
@@ -49,16 +53,36 @@ a, a:visited {
   background-color: #32ff7e; /* Spring Green */
 }
 
+.homeBG a, .homeBG .appTitle a {
+  color: #32ff7e; /* Spring Green */
+  transition: color 0.5s;
+}
+
 .projectsBG {
   background-color: #7efff5; /* Electric Blue */
+}
+
+.projectsBG a, .projectsBG .appTitle a {
+  color: #7efff5; /* Electric Blue */
+  transition: color 0.5s;
 }
 
 .aboutBG {
   background-color: #fff200; /* Yellow Rose */
 }
 
+.aboutBG a, .aboutBG .appTitle a {
+  color: #fff200; /* Yellow Rose */
+  transition: color 0.5s;
+}
+
 .contactBG {
   background-color: #ffb8b8; /* Melon */
+}
+
+.contactBG a, .contactBG .appTitle a {
+  color: #ffb8b8; /* Melon */
+  transition: color 0.5s;
 }
 
 .navList {

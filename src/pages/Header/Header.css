@@ -2,7 +2,16 @@
   margin-bottom: 0.8112rem;
 }*/
 
-.appTitle a {
+/*.appTitle a {
+  background-color: transparent;
   color: inherit;
   opacity: 1;
+  padding: 0;
+}*/
+
+.activePage {
+  border-bottom: 2px solid;
+  font-weight: 600;
+  padding: 0 1px;
+  transition: color 0.5s;
 }
