@@ -17,11 +17,11 @@
 body {
   color: #3d3d3d; /* Black Olive */
   font-family: 'Cooper Hewitt';
-  height: calc(100vh - 4px);
+  height: calc(100vh - 7px);
   line-height: 1.25;
   font-size: 1.125rem;
   font-weight: 400;
-  padding: 2px 8px;
+  padding: 5px 8px 2px 8px;
   text-rendering: optimizeLegibility;
   transition: background-color 0.5s;
 }
@@ -93,7 +93,15 @@ a:visited {
 }
 
 .navList li:not(:last-child) {
-  padding-right: 0.625rem;
+  padding-right: 0.55rem;
+}
+
+.navList li a, .navList li .activePage {
+  border-bottom: 2px solid #3d3d3d;
+  border-left: 2px solid #3d3d3d;
+  border-right: 2px solid #3d3d3d;
+  display: inline-block;
+  padding: 3px 2.5px 0px 2.5px;
 }
 
 h1, h2, h3, h4 {
