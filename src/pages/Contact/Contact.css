@@ -1,3 +1,8 @@
+form p {
+  margin-top: 0;
+  margin-bottom: 1.125rem;
+}
+
 form p label {
   align-items: center;
   display: flex;
