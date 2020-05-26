@@ -19,13 +19,16 @@ class About extends Component {
           <section className="articleSubsection">
             <h2 className="subsectionTitle">Skills</h2>
             <p>
-              JavaScript, React, jQuery, HTML/CSS, Python, C/C++, Excel, SQL Server
+              JavaScript, Fortran, Python, React, Google Apps Script, jQuery, Liquid, HTML/CSS, C/C++, OpenMP, OpenACC, Git, Excel, SQL Server
             </p>
           </section>
           <section className="articleSubsection">
             <h2 className="subsectionTitle">Education</h2>
             <p>
-              Continuing Education, Computer Science. University of Delaware, 2018 - Present.
+              Master of Science, Computer Science. University of Delaware, beginning Fall 2020.
+            </p>
+            <p>
+              Continuing Education, Computer Science. University of Delaware, 2018 - 2019.
             </p>
             <p>
               Visiting Student, Computer Science and Mathematics. Delaware Technical Community College, 2016 - 2019.

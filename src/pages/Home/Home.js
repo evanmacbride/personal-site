@@ -25,7 +25,7 @@ class Home extends Component {
         </nav>
         <article>
           <p className="homeBlurb">
-            Hi, I'm Evan. I'm a front end web developer from Wilmington, Delaware.
+            Hi, I'm Evan. I'm a software developer from Wilmington, Delaware.
           </p>
         </article>
       </section>
