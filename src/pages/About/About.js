@@ -25,7 +25,7 @@ class About extends Component {
           <section className="articleSubsection">
             <h2 className="subsectionTitle">Education</h2>
             <p>
-              Master of Science, Computer Science. University of Delaware, beginning Fall 2020.
+              Master of Science, Computer Science. University of Delaware, 2020 - 2022.
             </p>
             <p>
               Continuing Education, Computer Science. University of Delaware, 2018 - 2019.
@@ -39,6 +39,9 @@ class About extends Component {
           </section>
           <section className="articleSubsection">
             <h2 className="subsectionTitle">Experience</h2>
+            <p>
+              Student Assistant III. National Center for Atmospheric Research. 2020 - Present.
+            </p>
             <p>
               Point of Sales Administrator. Harvest Market, 2017 - Present.
             </p>
