@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "index.js",
   "dependencies": {
-    "netlify": "^4.1.7",
+    "netlify": "^6.1.13",
     "netlify-cli": "^2.59.3",
     "react": "^16.13.1",
     "react-dom": "^16.9.0",
